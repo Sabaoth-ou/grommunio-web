@@ -23,7 +23,7 @@ Ext.apply(Zarafa, {
 	 * @type {RegExp}
 	 */
 	reSingleEmailAddress: undefined,
-
+	
 	/**
 	 * A regular expression to find email addresses in a string
 	 *
@@ -92,8 +92,7 @@ Ext.apply(Zarafa, {
 	/**
 	 * True if the user is running DeskApp to view grommunio Web, false otherwise.
 	 *
-	 * @property
-	 * @type {Boolean}
+	 * @property {Boolean}
 	 */
 	isDeskApp: Ext.isDefined(window.nw),
 

@@ -471,22 +471,22 @@ Zarafa.core.ui.MainToolbar = Ext.extend(Zarafa.core.ui.Toolbar, {
 	 * Open the {@link Zarafa.addressbook.dialogs.AddressBookContentPanel AddressBookContentPanel}
 	 * @private
 	 */
-	onAddressBook: function()
-	{
-		Zarafa.addressbook.Actions.openAddressBook();
-	},
+	// onAddressBook: function()
+	// {
+	// 	Zarafa.addressbook.Actions.openAddressBook();
+	// },
 
-	/**
-	 * This will Refresh the view and fire {@link Zarafa.core.data.ListModuleStore#reload}
-	 * @private
-	 */
-	onRefresh: function()
-	{
-		var model = container.getCurrentContext().getModel();
-		if (model) {
-			model.reload();
-		}
-	},
+	// /**
+	//  * This will Refresh the view and fire {@link Zarafa.core.data.ListModuleStore#reload}
+	//  * @private
+	//  */
+	// onRefresh: function()
+	// {
+	// 	var model = container.getCurrentContext().getModel();
+	// 	if (model) {
+	// 		model.reload();
+	// 	}
+	// },
 
 	/**
 	 * This will print the current view
